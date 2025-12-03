@@ -3,7 +3,7 @@
 use Kirby\Cms\App;
 
 App::plugin('kensho/csp', [
-    'hooks' => [
-        'route:before' => require __DIR__ . '/hooks/route/before.php',
-    ],
+	'hooks' => [
+		'route:before' => require __DIR__ . '/hooks/route/before.php',
+	],
 ]);

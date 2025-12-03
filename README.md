@@ -19,7 +19,9 @@ The plugin is not configurable and just follows the latest [best practices][5].
 However, scripts in your frontend are expected to include a nonce and [the Kirby docs][6] already provide a good example for this.
 
 ```html
-<script nonce="<?= $kirby->nonce() ?>">…</script>
+<script nonce="<?= $kirby->nonce() ?>">
+  …
+</script>
 ```
 
 [1]: https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#strict-policy
