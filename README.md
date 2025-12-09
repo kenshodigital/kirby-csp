@@ -22,7 +22,7 @@ Uses Kirby’s native nonce feature (used for the panel) to add a strict [nonce-
 ### Installation
 
 ```shell
-composer require kenshodigital/kirby-csp ^1.1
+composer require kenshodigital/kirby-csp ^2.0
 ```
 
 ### Setup
