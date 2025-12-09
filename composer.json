@@ -1,15 +1,24 @@
 {
 	"name": "kenshodigital/kirby-csp",
-	"description": "Adds a strict policy CSP header to Kirby projects.",
+	"description": "Adds a strict CSP header to Kirby projects.",
 	"type": "kirby-plugin",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jens Scherbl"
+		}
+	],
 	"support": {
-		"source": "https://github.com/kenshodigital/kirby-csp"
+		"source": "https://github.com/kenshodigital/kirby-csp",
+		"issues": "https://github.com/kenshodigital/kirby-csp/issues"
 	},
 	"require": {
-		"php": "^8.3",
-		"getkirby/cms": "^4.1",
+		"php": "^8.3 || ^8.4 || ^8.5",
+		"getkirby/cms": "^4.8 || ^5.2",
 		"getkirby/composer-installer": "^1.2"
+	},
+	"extra": {
+		"installer-name": "csp"
 	}
 }
