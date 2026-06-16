@@ -7,7 +7,7 @@ Adds a [strict CSP][gUGXLs] header to [Kirby][D6X5Da] projects.
 
 ## General
 
-Uses Kirby’s native nonce feature (used for the panel) to add a strict [nonce-based][nfJGWt] content security policy header to all Kirby responses.
+Uses Kirby’s native nonce feature (used for the panel) to add a strict [nonce-based][nfJGWt] content security policy header to HTML pages.
 
 [nfJGWt]: https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#nonce-based-strict-policy
 
@@ -22,7 +22,7 @@ Uses Kirby’s native nonce feature (used for the panel) to add a strict [nonce-
 ### Installation
 
 ```shell
-composer require kenshodigital/kirby-csp ^1.1
+composer require kenshodigital/kirby-csp ^2.0
 ```
 
 ### Setup
