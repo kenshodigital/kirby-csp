@@ -20,8 +20,8 @@
 		"issues": "https://github.com/kenshodigital/kirby-csp/issues"
 	},
 	"require": {
-		"php": "^8.3",
-		"getkirby/cms": "^4.8 || ^5.2",
+		"php": "^8.5",
+		"getkirby/cms": "^5.4",
 		"getkirby/composer-installer": "^1.2"
 	},
 	"extra": {
