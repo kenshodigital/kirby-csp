@@ -12,7 +12,7 @@ App::plugin(name: 'kensho/csp', extends: [
 			 */
 			$this->response()->header(
 				key: 'Content-Security-Policy',
-				value: "script-src 'nonce-{$this->nonce()}' 'strict-dynamic' 'unsafe-inline' https:; object-src 'none'; base-uri 'none';",
+				value: "script-src 'nonce-{$this->nonce()}' 'strict-dynamic'; object-src 'none'; base-uri 'none';",
 			);
 		},
 	],
