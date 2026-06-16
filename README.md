@@ -30,7 +30,7 @@ composer require kenshodigital/kirby-csp ^2.0
 The plugin is not configurable and just follows the latest [best practices][A9zdUN].
 
 ```
-script-src 'nonce-[…]' 'strict-dynamic' 'unsafe-inline' https:; object-src 'none'; base-uri 'none';
+script-src 'nonce-[…]' 'strict-dynamic'; object-src 'none'; base-uri 'none';
 ```
 
 [A9zdUN]: https://web.dev/articles/strict-csp
